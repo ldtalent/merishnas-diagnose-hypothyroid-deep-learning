@@ -8,9 +8,9 @@ In this tutorial, we will be learning the code and workflow for diagnosing wheth
 
 ```virtualenv venv```
 
-	**Note:** If you have not installed the virtualenv library, you can do so by running:
+**Note:** If you have not installed the virtualenv library, you can do so by running:
 
-	```python3 -m pip install --user virtualenv```
+```python3 -m pip install --user virtualenv```
 
 2. Activate the environment.
 

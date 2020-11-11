@@ -5,28 +5,32 @@ Hypothyroid disease or Hypothyroidism is one of the most difficult diseases to d
 In this tutorial, we will be learning the code and workflow for diagnosing whether or not a person is suffering from Hypothyroid disease based on various metrics.
 
 1. Start by creating a virtual environment for installing the libraries.
+
 ```virtualenv venv```
 
-Note: If you have not installed the virtualenv library, you can do so by running:
-```python3 -m pip install --user virtualenv```
+	**Note:** If you have not installed the virtualenv library, you can do so by running:
+
+	```python3 -m pip install --user virtualenv```
 
 2. Activate the environment.
 
-For Windows:
+	For Windows:
 
-```
-cd venv/Scripts
-activate
-```
+	```
+	cd venv/Scripts
+	activate
+	```
 
-For MacOS/Linux:
+	For MacOS/Linux:
 
-```source env/bin/activate```
+	```source env/bin/activate```
 
-3. Go back to the root directory and install the requirements.txt
+3. Go back to the root directory and install the requirements.txt.
+
 ```pip install -r requirements.txt```
 
 4. We will be using Jupyter Notebook to run our code. You can install it using pip.
+
 ```pip install notebook```
 
 4. The `diagnose_hypothyroid.ipynb` file contains the code for Diagnosing Hypothyroid disease using Deep Learning. The code itself contains the necessary instructions and comments for running it. 

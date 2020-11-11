@@ -7,16 +7,45 @@ In this tutorial, we will be learning the code and workflow for diagnosing wheth
 1. Start by creating a virtual environment for installing the libraries.
 ```virtualenv venv```
 
-2. Activate the environment
+Note: If you have not installed the virtualenv library, you can do so by running:
+```python3 -m pip install --user virtualenv```
+
+2. Activate the environment.
+
+For Windows:
+
 ```
 cd venv/Scripts
 activate
 ```
 
+For MacOS/Linux:
+
+```source env/bin/activate```
+
 3. Go back to the root directory and install the requirements.txt
 ```pip install -r requirements.txt```
 
-4. The `diagnose_hypothyroid.ipynb` file contains the code for Diagnosing Hypothyroid disease using Deep Learning. The code itself contains the necessary instructions and comments for running it.
+4. We will be using Jupyter Notebook to run our code. You can install it using pip.
+```pip install notebook```
+
+4. The `diagnose_hypothyroid.ipynb` file contains the code for Diagnosing Hypothyroid disease using Deep Learning. The code itself contains the necessary instructions and comments for running it. 
+To run the notebook, run the following command at the Terminal (Mac/Linux) or Command Prompt (Windows):
+
+```jupyter notebook```
+
+### Python Libraries used
+
+1. Numpy: For mathematical operations
+2. Pandas: For data loading and processing 
+3. Matplotlib: For data visualization
+4. Keras: For building the deep neural network model
+5. Scikit-learn: For evaluating the model performance
+6. Pickle: For saving the trained model
+
+### Prerequisites
+
+
 
 ### Results
 

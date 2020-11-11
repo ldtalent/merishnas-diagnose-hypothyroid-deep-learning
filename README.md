@@ -38,6 +38,11 @@ To run the notebook, run the following command at the Terminal (Mac/Linux) or Co
 
 ```jupyter notebook```
 
+### Prerequisites
+
+1. Programming knowledge in Python.
+2. Basic knowledge of Jupyter Notebook, Deep Learning, Keras.
+
 ### Python Libraries used
 
 1. Numpy: For mathematical operations
@@ -46,10 +51,6 @@ To run the notebook, run the following command at the Terminal (Mac/Linux) or Co
 4. Keras: For building the deep neural network model
 5. Scikit-learn: For evaluating the model performance
 6. Pickle: For saving the trained model
-
-### Prerequisites
-
-
 
 ### Results
 

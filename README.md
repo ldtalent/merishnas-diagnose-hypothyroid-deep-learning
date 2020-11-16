@@ -29,8 +29,6 @@ In this tutorial, we will be learning the code and workflow for diagnosing wheth
 
 ```pip install -r requirements.txt```
 
-**Note:** Here, we are using TensorFlow v1 for which Python 3.8 is not supported. Please install Python 3.6 or earlier.
-
 4. We will be using Jupyter Notebook to run our code. You can install it using pip.
 
 ```pip install notebook```
